@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Street";
-    src: url(/font/street.otf);
+    src: url('./font/street.otf');
 }
 body{
     background-image: url("img/fondo2.jpg");
