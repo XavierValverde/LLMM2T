@@ -8,7 +8,91 @@
     <link rel="icon" href="/img/arcade.png" type="image/x-icon">
 </head>
 <body>
+    <!-- TODO PARA PODER ACCEDER AL ENLACE DE GITHUB PAGES DESCOMENTA EL CÓDIGO 
+
+    ! <a href="https://xaviervalverde.github.io/LLMM2T/" target="blank" id="git-pages">Mi Repo en Pages</a> 
+
+    TODO PARA PODER ACCEDER AL REPOSITORIO DE GITHUB DESCOMENTE EL CÓDIGO
+
+    ! <a href="https://github.com/XavierValverde/LLMM2T" target="blank" id="git-pages">Mi Repo en Pages</a> 
+
+    TODO -->
+    
     <h1>To live is to fight, to fight is to live!</h1>
+    <table>
+        <tr>
+            <td  id="cabecera" colspan="4">Street Fighter</td>
+        </tr> 
+        <tr>
+            <td><span>KEN</span><img src="img/ken.png" alt="Ken"></td>
+            <td><span>CHUN LI</span><img src="img/ChunLi.png" alt="Chun Li"></td>
+            <td><span>ZANGIEF</span><img src="img/Zangief.png" alt="Zangief"></td>
+            <td><span>DHALSIM</span><img src="img/Dhalsim.png" alt="Dhalsim"></td>
+        </tr> 
+        <tr>
+            <td><span>RYU</span><img src="img/Ryu.png" alt="Ryu"></td>
+            <td><span>E HONDA</span><img src="img/EHonda.png" alt="E Honda"></td>
+            <td><span>BLANKA</span><img src="img/Blanka.png" alt="Blanka"></td>
+            <td><span>GUILE</span><img src="img/Guille.png" alt="El Guille"></td>
+        </tr> 
+        <tr>
+            <td><span>T HAWK</span><img src="img/THawk.png" alt="T Hawk"></td>
+            <td><span>FEILONG</span><img src="img/Feilong.png" alt="Feilong"></td>
+            <td><span>DEE JAY</span><img src="img/DeeJay.png" alt="Dee jay"></td>
+            <td><span>CAMMY</span><img src="img/Cammy.png" alt="Cammy"></td>
+        </tr> 
+        <tr>
+            <td><span>BALROG</span><img src="img/Balrog.png" alt="Balrog"></td>
+            <td><span>VEGA</span><img src="img/Vega.png" alt="Vega"></td>
+            <td><span>SAGAT</span><img src="img/Sagat.png" alt="Sagat"></td>
+            <td><span>M BISON</span><img src="img/MBison.png" alt="M Bison"></td>
+        </tr> 
+    </table>
+
+    <!--FORMULARIO-->
+        <h2 class="subtitulo">FORMULARIO DE INSCRIPCIÓN PARA JUGAR A STREET FIGHTER</h2>
+        <form>
+            <div class="campo-form">
+                <legend>DATOS PERSONALES</legend>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" required>
+                <label>Apellidos:</label>
+                <input type="text" name="apellidos" required>
+                <label>Dirección Postal:</label>
+                <input type="text" name="calle" placeholder="Calle">
+                <input type="text" name="numero" placeholder="Nº">
+                <input type="text" name="piso" placeholder="Piso">
+                <input type="text" name="cp" placeholder="Código Postal">
+                <input type="text" name="ciudad" placeholder="Ciudad">
+                <label>Nick:</label>
+                <input type="text" name="nick">
+                <label>Correo Electrónico:</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="radio">
+                <legend>Sexo Usuario:</legend>
+                <input type="radio" name="sexo" value="hombre">Hombre
+                <input type="radio" name="sexo" value="mujer">Mujer
+                <input type="radio" name="sexo" value="no-decir">Prefiero no decir
+            </div>
+            <div class="campo-form">
+                <label>Fecha de Nacimiento:</label>
+                <input type="date" name="fecha-nacimiento">
+            </div>
+            <div class="campo-form">
+                <legend>Personajes:</legend>
+                <label>Selecciona el personaje:</label>
+                <input type="text" name="comentarios" >
+            </div>
+            <div class="campo-form">
+                <legend>Comentarios</legend>
+                <textarea name="comentarios" placeholder="Hola Luis, mi personaje favorito de Street Fighter es Ken."></textarea>
+            </div>
+            <div class="campo-form">
+                <button type="submit" class="button">Enviar</button>
+                <button type="reset" class="button">Borrar</button>
+            </div>
+        </form>
     
 </body>
 </html>
